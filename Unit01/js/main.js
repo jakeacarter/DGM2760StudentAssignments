@@ -7,7 +7,7 @@ document.querySelector('header > h2').innerText = "Best B&B this side of the Roc
 
 let userName = prompt("What is your name?")
 
-//let message = "Hello " + userName + ", welcome to the best B&B in the west!"
+let message = "Hello " + userName + ", welcome to the best B&B in the west!"
 
 let message = `Hello ${userName}, welcome to the best B&B this side of the Rocky Mountains!`
 

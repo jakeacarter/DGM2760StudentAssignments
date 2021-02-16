@@ -1,0 +1,91 @@
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/Game.jpg");
+    height: 280px;
+}
+
+#company {
+    font-size: 40px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#theGame {
+    color: black;
+}
+
+#gameType {
+    color: black;
+}
+
+h1 {
+    position: relative;
+    left: 20px;
+    color: white;
+ 
+}
+
+header h2 {
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+main {
+    color: black;;
+}
+
+h2 {
+    color: #73aa5e;    
+}
+
+.game {
+    background-color: #c5ebfc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a1 {
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.a2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.a3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.a4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#attempts {
+    font-size: 40px;
+}
+
+#feedback {
+    font-size: 25px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #73aa5e;
+    font-size: 20px;
+}
+
+ul {
+    font-size: large;
+}
