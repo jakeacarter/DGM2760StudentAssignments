@@ -1,0 +1,47 @@
+/*body,h1,h2,h3,h4,h5,h6,ul,li {
+    margin: 0;
+}*/
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/header.jpg");
+    height: 280px;
+}
+
+#company {
+    font-size: 40px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    position: relative;
+    left: 20px;
+    color: white;
+ 
+}
+
+header h2 {
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+main h2 {
+    color: black;;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #b74;
+    font-size: 20px;
+}
+
+ul {
+    font-size: large;
+}
