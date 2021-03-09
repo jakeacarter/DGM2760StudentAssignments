@@ -52,7 +52,6 @@ main article {
 main aside {
     float: right;
     width: 40%;
-    margin-top: 35%;
 }
 
 main div#displayResults {
