@@ -15,6 +15,7 @@ const listTrees = () => {
 listTrees()
 
 //Add a redwood to the end to the old way
+
 // var addTreeStart = function() {
 //     trees.push("redwood");
 //     listTrees();
@@ -65,20 +66,21 @@ document.querySelector('#sortTrees').onclick = () => {
 
 //make trees lowercase
 document.querySelector('#lowerTrees').onclick = () => {
-    trees.map(trees => trees.toLowerCase())
+    trees.toLowerCase()
     listTrees();
 }
 
 //Find tree number 3
 
 document.querySelector('#showName3').onclick = () => {
-    trees.find()
+    trees.find();
+    //trees.push('aspen')
     listTrees();
 }
 
 //Find tree number 4
 document.querySelector('#showName4').onclick = () => {
-    trees.find()
+    trees.push('Bald Cypress')
     listTrees();
 }
 
