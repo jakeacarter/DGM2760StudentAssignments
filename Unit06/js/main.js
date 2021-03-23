@@ -1,5 +1,13 @@
 function tellStory() {
-    nounArray = querySelector('#noun')
+    //let nounArray = ['#noun'];
+    let nounArray = document.querySelector('#noun')
 
-    const myStory = `Once upon a time there were several ${nounArray[0]}s who loved to ${verbArray[0]}.`
-}
+    let adjectiveArray = ['#adjectives'];
+    
+    let verbArray = ['#verbs'];
+
+   
+
+    
+
+    const myStory = `Once upon a time there were several ${nounArray[0]}s who loved to`
