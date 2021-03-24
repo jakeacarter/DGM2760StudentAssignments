@@ -1,5 +1,5 @@
 // Create an array with 4 trees listed
-const trees = ['oak', 'Pine', 'aspen', 'Bald Cypress'];
+let trees = ['oak', 'Pine', 'aspen', 'Bald Cypress'];
 const errorElement = document.querySelector('#error')
 const displayResults = document.querySelector('#displayResults')
 
@@ -66,21 +66,20 @@ document.querySelector('#sortTrees').onclick = () => {
 
 //make trees lowercase
 document.querySelector('#lowerTrees').onclick = () => {
-    trees.toLowerCase()
+    trees = trees.map(tree => tree.toLowerCase())
     listTrees();
 }
 
 //Find tree number 3
 
 document.querySelector('#showName3').onclick = () => {
-    trees.find();
-    //trees.push('aspen')
+    trees = trees.filter(tree => tree == trees[2]);
     listTrees();
 }
 
 //Find tree number 4
 document.querySelector('#showName4').onclick = () => {
-    trees.push('Bald Cypress')
+    trees = trees.filter(tree => tree == trees[3]);
     listTrees();
 }
 
