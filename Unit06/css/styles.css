@@ -44,12 +44,7 @@ main h2 {
     height: 20px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: darkseagreen;
-    font-size: 20px;
-}
+
 
 ul {
     font-size: large;
@@ -80,8 +75,19 @@ button {
 
 p {
     color: darkred;
-    font-size: 20px;        
+    font-size: 20px;  
+    font-weight: bold;
+    font-family: sans-serif;   
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 
 
