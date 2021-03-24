@@ -28,6 +28,7 @@ h1 {
 }
 
 header h2 {
+    
     position: relative;
     left: 20px;
     color: black;
@@ -35,6 +36,7 @@ header h2 {
 
 main h2 {
     color: black;;
+    height: 20px;
 }
 
 footer {
@@ -47,3 +49,37 @@ footer {
 ul {
     font-size: large;
 }
+
+article {
+   display: inline-block;
+   margin: 1em;
+}
+
+textarea{
+    display: flex;
+    width: 250px;
+    height: 150px;
+    resize: none;
+}
+
+button {
+    border-radius: 15px;
+    padding: .4em;
+    margin: .4em 0;
+    width: 18%;
+    background-color: darkseagreen;
+}
+
+p {
+    color: darkred;
+    font-size: 20px;        
+}
+
+
+
+
+
+
+
+
+
