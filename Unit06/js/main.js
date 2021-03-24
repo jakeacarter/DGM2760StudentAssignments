@@ -22,7 +22,7 @@ function tellStory() {
  console.log(verbArray)  
  
  const myStory = `Once upon a time there was a ${adjArray.shift()} ${nounArray.shift()}`
-storyElement.innerHTML = myStory
+ storyElement.innerHTML = myStory
  
 console.log(myStory)
 
