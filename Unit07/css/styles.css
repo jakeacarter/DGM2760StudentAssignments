@@ -1,0 +1,70 @@
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/pizza.jpg");
+    height: 240px;
+}
+
+#company {
+    font-size: 40px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#theGame {
+    color: black;
+}
+
+#gameType {
+    color: black;
+}
+
+h1 {
+    position: relative;
+    left: 20px;
+    color: white;
+ 
+}
+
+header h2 {
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+main {
+    color: black;;
+}
+
+h2 {
+    color: darkred;    
+}
+
+button {
+    border-radius: 8px;
+    padding: .3em;
+    margin: .3em;
+    width: 20%;
+    background-color: darkred;
+    font-size: 15px;
+    font-weight: bold; 
+    color: white;
+    
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    font-size: 20px;
+    color: white;
+}
+
+ul {
+    font-size: large;
+}
