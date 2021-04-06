@@ -1,0 +1,102 @@
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/grants.jpg");
+    height: 240px;
+}
+
+#company {
+    font-size: 40px;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#theGame {
+    color: black;
+}
+
+#gameType {
+    color: black;
+}
+
+#pageName {
+    color: steelblue;
+}
+
+h1 {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+header h2 {
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+main {
+    color: black;
+}
+
+h2 {
+    color: steelblue;    
+}
+
+button {
+    border-radius: 8px;
+    border-color: black;
+    border-width: .1em;
+    padding: .7em;
+    width: 100%;
+    background-color: lightsteelblue;
+    font-size: 15px;
+    font-weight: bold; 
+    color: white;
+    
+}
+
+#stem {
+    background-color: steelblue;
+    border-radius: 8px;
+    border-color: black;
+    border-width: .1em;
+    padding: .7em;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    font-weight: bold; 
+    
+}
+
+.feedback {
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    border-color: black;
+    border-width: .1em;
+    padding: .7em;
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold; 
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    font-size: 20px;
+    color: white;
+    margin: 1em;
+}
+
+ul {
+    font-size: large;
+}
