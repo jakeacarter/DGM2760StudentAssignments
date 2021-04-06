@@ -30,7 +30,7 @@ h1 {
     position: relative;
     left: 20px;
     color: white;
-    font-weight: bold;
+    font-weight: ;
  
 }
 
@@ -53,11 +53,13 @@ button {
     border-color: black;
     border-width: .1em;
     padding: .7em;
+    margin: .2em;
     width: 100%;
     background-color: lightsteelblue;
     font-size: 15px;
     font-weight: bold; 
     color: white;
+    text-align: left;
     
 }
 
@@ -67,7 +69,6 @@ button {
     border-color: black;
     border-width: .1em;
     padding: .7em;
-    width: 100%;
     font-size: 15px;
     color: white;
     font-weight: bold; 
@@ -80,7 +81,6 @@ button {
     border-color: black;
     border-width: .1em;
     padding: .7em;
-    width: 100%;
     font-size: 15px;
     color: black;
     font-weight: bold; 
@@ -91,7 +91,7 @@ button {
 footer {
     display: flex;
     justify-content: center;
-    background-color: darkred;
+    background-color: steelblue;
     font-size: 20px;
     color: white;
     margin: 1em;
