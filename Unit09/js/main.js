@@ -10,7 +10,6 @@ function duplicateMenu() {
         // 'copy' the textContent from upper menu to new menu
         
         //append children to make them apear in the DOM
-        
     })
 }
 
