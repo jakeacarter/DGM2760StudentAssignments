@@ -32,6 +32,7 @@ p {
     border-radius: 5px;
     padding: 6px; 
     margin: 10px 10px 10px 5px;
+    width: 500px;
 }
 
 .hotels {
@@ -49,6 +50,19 @@ a {
     border-radius: 5px;
     padding: 3px; 
     margin: 10px 10px 10px 5px;
+    width: 500px;
+}
+
+#rooms {
+    margin: 0px 0px 0px 10px;
+}
+
+#gym {
+    margin: 0px 0px 0px 10px;
+}
+
+#type {
+    margin: 0px 0px 0px 10px;
 }
 
 #pageName {
@@ -80,6 +94,7 @@ footer {
     justify-content: center;
     background-color: rgb(133, 195, 216);
     font-size: 20px;
+    color: white;
 }
 
 ul {
