@@ -32,11 +32,12 @@ p {
     border-radius: 5px;
     padding: 6px; 
     margin: 10px 10px 10px 5px;
-    width: 500px;
+    width: 300px;
 }
 
 .hotels {
     list-style-type: none;
+    padding: 0px;
     
 }
 
@@ -50,7 +51,7 @@ a {
     border-radius: 5px;
     padding: 3px; 
     margin: 10px 10px 10px 5px;
-    width: 500px;
+    width: 300px;
 }
 
 #rooms {
