@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "La Quinta",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "100 Gravy Street",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Motel 8",
+            "rooms": "80",
+            "gym": "Nope",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "350 Pie Blvd",
+            "picture": "room2.jpg"
+        },
+        {
+            "name": "Holiday Inn",
+            "rooms": "65",
+            "gym": "Nope",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "775 W Waffle Street",
+            "picture": "room3.jpg"
+        }
+    ]
+}
