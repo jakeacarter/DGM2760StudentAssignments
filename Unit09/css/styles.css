@@ -141,20 +141,38 @@ nav ul#primaryNavigation li a:hover {
         background-color: black;
     }
 
-div.smallMenuLink {
-    display: block;
-    background-color: black;
+    div.smallMenuLink {
+        display: block;
+        background-color: black;
+    }
+    div.smallMenuLink a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: .6em;
+        font-weight: bold;
+    }
+
 }
-div.smallMenuLink a {
+
+
+#smallNavArea ul {
+    display: table-row;
+    
+}
+
+#smallNavArea li {
     display: block;
     color: white;
     text-decoration: none;
     padding: .6em;
     font-weight: bold;
+    width: 100%;
 }
 
+#smallNavArea li  a{
+    text-decoration: none;
 }
-
 main h1 {
     color: black;
     padding: 1rem 0 0 2%;
