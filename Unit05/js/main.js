@@ -14,17 +14,6 @@ const listTrees = () => {
 
 listTrees()
 
-//Add a redwood to the end to the old way
-
-// var addTreeStart = function() {
-//     trees.push("redwood");
-//     listTrees();
-// };
-// var redwood = document.fetElementById('add_redwood');
-// redwood.onclick = addTreeStart;
-
-// More concise version of add a redwood to the end
-
 document.querySelector('#add_redwood').onclick = () => {
     trees.push('redwood')
     listTrees();
@@ -40,60 +29,82 @@ document.querySelector('#add_pear').onclick = () => {
 // Remove Tree first tree
 
 document.querySelector('#remove_tree1').onclick = () => {
-    trees.shift('tree')
-    listTrees();
+    if(trees.length > 0 ){
+        trees.shift('tree')
+        listTrees();
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
 }
 
 //remove the second tree
 
 document.querySelector('#remove_tree2').onclick = () => {
-    trees.splice(1, 1)
-    listTrees();
+    if(trees.length >= 2 ){
+        trees.splice(1, 1)
+        listTrees();
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
+    
 }
 
 //remove last tree
 
 document.querySelector('#remove_treeLast').onclick = () => {
-    trees.pop('lastTree')
-    listTrees();
+    if(trees.length > 0 ){
+        trees.pop('lastTree')
+        listTrees();
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
 }
 
 //sort trees A>Z
 document.querySelector('#sortTrees').onclick = () => {
-    trees.sort()
-    listTrees();
+    if(trees.length >= 1 ){
+        trees.sort()
+        listTrees();
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
 }
 
 //make trees lowercase
 document.querySelector('#lowerTrees').onclick = () => {
-    trees = trees.map(tree => tree.toLowerCase())
-    listTrees();
+    if(trees.length > 0 ){
+        trees = trees.map(tree => tree.toLowerCase())
+        listTrees();
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
 }
 
 //Find tree number 3
 
 document.querySelector('#showName3').onclick = () => {
-    trees = trees.filter(tree => tree == trees[2]);
-    listTrees();
+    if(trees.length >= 3 ){
+        tree3 = trees.filter(tree => tree == trees[2]);
+        errorElement.innerHTML = tree3
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
 }
 
 //Find tree number 4
 document.querySelector('#showName4').onclick = () => {
-    trees = trees.filter(tree => tree == trees[3]);
-    listTrees();
+    if(trees.length >= 4 ){
+        tree4 = trees.filter(tree => tree == trees[3]);
+        errorElement.innerHTML = tree4
+    } else {
+        errorElement.innerHTML = "Cant Do that operation"
+    }
 }
 
 //Error messages
 
-document.querySelector('#remove_tree1').onlcick = () => {
-    if (trees.length == 0) {
-        trees.shift()
-        listTrees()
-    } else {
-        errorElement.textContent = 'Cannot remove the first tree because there are no trees.'
-    }
-}
 
+// function errorChecking 
 
 
 
