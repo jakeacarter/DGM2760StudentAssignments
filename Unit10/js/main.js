@@ -21,7 +21,7 @@ function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotel => {
         return event.target.id === hotel.name.toLowerCase()
     })
-    console.log(hotelChoice)
+    console.log(event)
 
     document.querySelector("#hotelName").textContent = `${hotelChoice.name} Hotel`
 
@@ -33,6 +33,20 @@ function hotelInfo(event) {
 
     document.querySelector("#type").textContent = `${hotelChoice.roomTypes}`
 
-    document.querySelector("#picture").src='hotelchoice'
+    document.querySelector("#picture").setAttribute('src', getImagePath(event))
 
+ 
+}
+
+function getImagePath(e) {
+    console.log(e.target.id)
+    if (e.target.id == 'marriott') {
+        return './images/room1.jpg'
+    }
+    else if (e.target.id == 'sharaton') {
+        return './images/room2.jpg'
+    }
+    else {
+        return './images/room3.jpg'
+    }
 }
