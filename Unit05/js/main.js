@@ -33,7 +33,7 @@ document.querySelector('#remove_tree1').onclick = () => {
         trees.shift('tree')
         listTrees();
     } else {
-        errorElement.innerHTML = "Cannot remove first tree becuase there no trees on the list"
+        errorElement.innerHTML = "Cannot remove first tree becuase there are no trees on the list"
     }
 }
 
