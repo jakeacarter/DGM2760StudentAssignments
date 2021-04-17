@@ -33,7 +33,7 @@ document.querySelector('#remove_tree1').onclick = () => {
         trees.shift('tree')
         listTrees();
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot remove first tree becuase there no trees on the list"
     }
 }
 
@@ -44,7 +44,7 @@ document.querySelector('#remove_tree2').onclick = () => {
         trees.splice(1, 1)
         listTrees();
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot remove the second tree because there is not more than one tree on the list"
     }
     
 }
@@ -56,7 +56,7 @@ document.querySelector('#remove_treeLast').onclick = () => {
         trees.pop('lastTree')
         listTrees();
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot remove the last tree because there are no trees on the list"
     }
 }
 
@@ -66,7 +66,7 @@ document.querySelector('#sortTrees').onclick = () => {
         trees.sort()
         listTrees();
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot sort trees"
     }
 }
 
@@ -76,7 +76,7 @@ document.querySelector('#lowerTrees').onclick = () => {
         trees = trees.map(tree => tree.toLowerCase())
         listTrees();
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot make trees lowercase"
     }
 }
 
@@ -87,7 +87,7 @@ document.querySelector('#showName3').onclick = () => {
         tree3 = trees.filter(tree => tree == trees[2]);
         errorElement.innerHTML = tree3
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot find the third tree on the list"
     }
 }
 
@@ -97,7 +97,7 @@ document.querySelector('#showName4').onclick = () => {
         tree4 = trees.filter(tree => tree == trees[3]);
         errorElement.innerHTML = tree4
     } else {
-        errorElement.innerHTML = "Cant Do that operation"
+        errorElement.innerHTML = "Cannot find the fourth tree on the list"
     }
 }
 
